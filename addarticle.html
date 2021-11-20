@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="addarticle.php" method="post" enctype="multipart/form-data">
+    <table align="center">
+    <tr>
+      <td>articl name:</td><td><input type="text" name="art"></td>
+    </tr>
+    <tr>
+      <td>state:</td><td><input type="radio" name="state" value="onstock">onstock</td>
+      <td><input type="radio" name="state" value="outstock">outstock</td>
+    </tr>
+    <tr><td>price:</td><td><input type="number" name="prix" value=""></td><td>DT
+    </td></tr>
+    <tr><td>description:</td>
+      <td><textarea name="des" placeholder="write the decripion here"
+         rows="8" cols="80"></textarea></td>
+    </tr>
+    <tr><td>input picture</td><td><input type='file' name="pic">
+</td></tr>
+<tr><td><input type="submit" value="add"/></td><td>
+<input type="reset" value="reset"/></td></tr>
+    </table>
+    </form>
+  </body>
+</html>

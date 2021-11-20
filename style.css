@@ -1,0 +1,24 @@
+table.t2{
+  border: solid red;
+  background-color:#B041FF;
+}
+h1{border: solid yellow;
+color:white;
+background-color: #98AFC7;
+align-self: center;
+border-radius: 30px;
+}
+body{
+  background-color: #E0FFFF;
+}
+h1::first-letter{
+  color:  #FBB917;
+  font-size: 23pt;
+  font-family: Arial;
+}
+ul{
+ background-color:#F97D03;
+ color: white;
+ background-size: 100px 100PX;
+
+}

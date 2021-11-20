@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <script language='javascript'>
+     function confirmation(){
+        if (document.getElementsById('button').innerHtml=='<button type="button" id="button" onclick="confirmation()" style="backgroundColor:red">disconfirmed</button>'){
+        document.getElementsById('button').innerHtml=='<button type="button" id="button" onclick="confirmation()" style="background:#00FF00">confirmed</button>';
+      }
+        else{
+         document.getElementsById('button').innerHtml=='<button type="button" id="button" onclick="confirmation()" style="background:red">disconfirmed</button>';
+        }
+      }
+    </script>
+  </head>
+  <body>
+<button type="button" id="button" onclick="confirmation()">
+disconfirmed</button>
+  </body>
+</html>

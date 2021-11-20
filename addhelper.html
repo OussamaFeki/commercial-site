@@ -1,0 +1,31 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>addhelper</title>
+    <style type="text/css">
+     input{border:solid red;}
+     h1{font-size:30pt;
+      color=blue;}
+      body{background-color:#708090; }
+
+    </style>
+    <script type="text/javascript">
+    function afficher(){
+      alert("add a helper ");
+    }
+
+    </script>
+  </head>
+  <body onload="afficher()">
+  <table align="center">
+    <form action="addhelper.php" method="Post">
+    <h1>Addhelper</h1>
+    <tr><td>name</td><td><input type="text" name="name"/></td></tr>
+    <tr><td>email:</td><td><input type="email" name="mail"/></td></tr>
+    <tr><td>passeword:</td><td><input type="password" name="mt"/></td></tr>
+    <tr><td><input type="submit" value="add"/></td><td>
+    <input type="reset" value="reset"/></td></tr>
+    </form>
+  </table>
+  </body>
+</html>
